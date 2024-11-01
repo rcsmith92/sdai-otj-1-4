@@ -19,6 +19,7 @@ nav a {
     display: inline-block;
     font-weight: bold;
 }
+
 nav a:hover {
     background-color: #FF8C1A;
     border-radius: 5px;
@@ -34,8 +35,11 @@ nav a:hover {
     margin: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
+
 #hero h1 {
     font-family: 'Montserrat', cursive;
+    font-size: 36px;
+    margin-top: 10px;
     color: #FF6F20;
 }
 
@@ -47,17 +51,70 @@ section {
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
-section h2 {
+
+h2 {
     color: #FF6F20;
     border-bottom: 2px solid #FF6F20;
     padding-bottom: 10px;
+    margin: 10px;
 }
 
 .menu-title {
     text-align: center;
+    width: 800px;
 }
 
+h3 {
+    font-family: Monaco; 
+    font-size: 24px;
+    margin: 10px;
+    padding: 10px;
+    color: #FF6F20;
+    line-height: 1.5 
+}
 
+h4 {
+    font-family:Monaco;
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px;
+    color: #FF6F20;
+    line-height: 0.2;
+}
+
+p {
+    font-family: lucida sans;
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px;
+    color: #FFFFFF;
+    line-height: 1.2;
+}
+
+.menu-items {
+    font-family:Monaco;
+    font-size: 14px;
+    margin: auto;
+    color: #FFFFFF;
+    line-height: 0;
+}
+
+.note {
+    font-family: lucida sans;
+    font-size: 18px;
+    margin: auto;
+    color: #FF6F20;
+    line-height: 0;
+}
+
+.favorites {
+    font-family: lucida sans;
+    font-size: 20px;
+    margin: 10px;
+    color: #FF6F20;
+    line-height: 5;
+    text-align: center;
+}
 /* Footer Section */
 footer {
     background-color: #FF6F20;
@@ -65,14 +122,17 @@ footer {
     text-align: center;
     padding: 15px 0;
 }
+
 .social-icons a {
     margin: 0 10px;
 }
+
 .social-icons img {
     width: 30px;
     height: auto;
     transition: transform 0.3s;
 }
+
 .social-icons img:hover {
     transform: scale(1.1);
 }
