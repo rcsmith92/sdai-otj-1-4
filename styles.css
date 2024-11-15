@@ -133,7 +133,7 @@ p {
 .flex-container img {
     width: 100%;
     max-width: 300px;
-    height: auto;
+    height: 300px;
     object-fit: cover;
     border-radius: 5px;
     transition: transform 0.3s ease-in-out;
